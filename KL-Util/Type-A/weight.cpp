@@ -1,4 +1,4 @@
-77;10103;0c#include "weight.h"
+#include "weight.h"
 
 Weight::Weight() {
 	int i;

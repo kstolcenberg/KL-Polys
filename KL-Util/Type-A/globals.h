@@ -14,7 +14,7 @@
 #define MAX_WEIGHT {2,2,2}
 #include "globals-4.h"
 #elif RANK==5
-#define MAX_WEIGHT {8,8,8,8}  //{3,3,3,3}
+#define MAX_WEIGHT {8,8,8,8}  //{3,3,3,3} used for "non-Big" version
 #include "globals-5.h"
 #elif RANK==6
 #define MAX_WEIGHT {4,4,4,4,4}
