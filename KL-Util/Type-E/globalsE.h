@@ -2,7 +2,7 @@
 #define GLOBALTVAR_H
 
 //RANK should be the only thing that needs to be changed.
-#define RANK 7
+#define RANK 7 //This is the only rank that works currently!
 
 #define STRINGIFY(X) #X
 #define TOSTRING(X) STRINGIFY(X)
@@ -42,6 +42,6 @@
 #include "globals-9D.h"
 #endif
 
-#define PRIME (2*RANK)-4
+#define PRIME 12 // Only works for RANK 7 (see Bourbaki). Otherwise (2*RANK)-4 for now
 
 #endif
